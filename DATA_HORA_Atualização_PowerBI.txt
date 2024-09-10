@@ -1,0 +1,15 @@
+Em transformar dados Consulta nulla
+clique em formula
+digite
+= DateTimeZone.LocalNow()
+tecle enter
+transforme em tabela
+depois clicar em nova coluna personalizada
+digite a formula
+
+= DataTimeZone.SwitchZone([nome da acima], -3)
+data hora Brasil
+
+agora devemos clicar em dividir por limitador e retirar o - 03:00 
+esse coluna ficará com data e hora de referencia
+as demais colunas pode excluir
